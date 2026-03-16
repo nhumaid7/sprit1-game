@@ -26,18 +26,10 @@ namespace CTools.CTimer
 
         private static Dictionary<string, Timer> m_TimerIdPairs = new Dictionary<string, Timer>();
         private static List<Timer> m_DisposableTimers = new List<Timer>();
-        
+
         private void Awake()
         {
-            if (Instance == null)
-            {
-                Instance = this;
-                DontDestroyOnLoad(this.gameObject);
-            }
-            else
-            {
-                Destroy(this);
-            }
+            Instance = this;
         }
 
         private void Start()
@@ -116,7 +108,7 @@ namespace CTools.CTimer
         [MenuItem("Tools/Create Timer Manager")]
         private static void CreateTimerManager()
         {
-            var timerManager = GameObject.FindObjectOfType<TimerManager>();
+            var timerManager = GameObject.FindFirstObjectByType<TimerManager>();
             if (timerManager == null)
             {
                 var go = new GameObject("TimerManager", typeof(TimerManager));

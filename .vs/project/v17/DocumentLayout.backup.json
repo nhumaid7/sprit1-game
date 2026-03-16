@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Noora\\project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|c:\\users\\noora\\project\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|c:\\users\\noora\\project\\assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|c:\\users\\noora\\project\\assets\\ctimer\\scripts\\timermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|solutionrelative:assets\\ctimer\\scripts\\timermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|C:\\Users\\Noora\\project\\assets\\scripts\\endgameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endgameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|C:\\Users\\Noora\\project\\assets\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|C:\\Users\\Noora\\project\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|C:\\Users\\Noora\\project\\assets\\ctimer\\scripts\\timermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|solutionrelative:assets\\ctimer\\scripts\\timermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|C:\\Users\\Noora\\project\\assets\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CA597AC-799E-2D81-E8A0-0EA9A568434E}|Assembly-CSharp.csproj|C:\\Users\\Noora\\project\\assets\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,11 +78,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MusicManager.cs",
+              "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
+              "ToolTip": "C:\\Users\\Noora\\project\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:53:38.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EndGameUI.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\Scripts\\EndGameUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndGameUI.cs",
@@ -90,32 +107,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TimerManager.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\CTimer\\Scripts\\TimerManager.cs",
               "RelativeDocumentMoniker": "Assets\\CTimer\\Scripts\\TimerManager.cs",
               "ToolTip": "C:\\Users\\Noora\\project\\Assets\\CTimer\\Scripts\\TimerManager.cs",
               "RelativeToolTip": "Assets\\CTimer\\Scripts\\TimerManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAUwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T15:09:11.938Z"
+              "WhenOpened": "2026-03-14T15:09:11.938Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\Noora\\project\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAxwGEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAA1wG0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T14:12:35.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T14:12:35.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GameTimer.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\Scripts\\GameTimer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameTimer.cs",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerInteract.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\scripts\\PlayerInteract.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerInteract.cs",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ItemPickup.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\Scripts\\ItemPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemPickup.cs",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EndSummaryUI.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\Scripts\\EndSummaryUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndSummaryUI.cs",
@@ -162,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "OutlineHighlight.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\scripts\\OutlineHighlight.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\OutlineHighlight.cs",
@@ -174,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
@@ -186,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Outline.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\QuickOutline\\Scripts\\Outline.cs",
               "RelativeDocumentMoniker": "Assets\\QuickOutline\\Scripts\\Outline.cs",
@@ -198,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Library\\PackageCache\\com.unity.render-pipelines.universal@dcd8a2aecf3e\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@dcd8a2aecf3e\\Shaders\\Lit.shader",
@@ -211,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "RenderPipelineGlobalSettingsUtils.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Library\\PackageCache\\com.unity.render-pipelines.core@265bc324f310\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.core@265bc324f310\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs",
@@ -224,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SimplePlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\SimplePlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\SimplePlayerMovement.cs",
@@ -236,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\GameManager.cs",
@@ -248,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PlayerMovment.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\PlayerMovment.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerMovment.cs",
@@ -260,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ItemPickup.cs",
               "DocumentMoniker": "C:\\Users\\Noora\\project\\Assets\\ItemPickup.cs",
               "RelativeDocumentMoniker": "Assets\\ItemPickup.cs",
