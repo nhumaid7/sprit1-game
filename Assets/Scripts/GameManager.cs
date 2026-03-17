@@ -8,19 +8,37 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI counterText;
     public GameObject pickupPrompt;
-
     public TextMeshProUGUI shoppingListText;
 
-
-    public List<string> requiredItems = new List<string>
+    [Header("All possible items in the store")]
+    public List<string> allPossibleItems = new List<string>
     {
         "Cereal",
         "Milk",
         "Salt",
         "Olive Oil",
         "Strawberry",
-        "Croissant"
+        "Croissant",
+        "Bread",
+        "Honey",
+        "Peanut butter",
+        "Water",
+        "Nachos",
+        "Musterd",
+        "Ketchup",
+        "Eggplant",
+        "Paprika",
+        "Round loaf",
+        "Cookie",
+        "Cupcake",
+        "Chocolate"
     };
+
+    [Header("How many items to choose each round")]
+    public int itemsPerRound = 6;
+
+    // Keep this public so old scripts that use requiredItems still work
+    public List<string> requiredItems = new List<string>();
 
     private HashSet<string> collectedCorrectItems = new HashSet<string>();
 
@@ -34,13 +52,40 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        UpdateShoppingListUI(); 
+        StartNewRound();
+        UpdateShoppingListUI();
         UpdateCounter();
 
         if (pickupPrompt != null)
         {
             pickupPrompt.SetActive(false);
         }
+    }
+
+    public void StartNewRound()
+    {
+        collectedCorrectItems.Clear();
+        requiredItems = GetRandomItems(allPossibleItems, itemsPerRound);
+
+        UpdateShoppingListUI();
+        UpdateCounter();
+    }
+
+    private List<string> GetRandomItems(List<string> sourceList, int count)
+    {
+        List<string> tempList = new List<string>(sourceList);
+        List<string> randomItems = new List<string>();
+
+        count = Mathf.Min(count, tempList.Count);
+
+        for (int i = 0; i < count; i++)
+        {
+            int randomIndex = Random.Range(0, tempList.Count);
+            randomItems.Add(tempList[randomIndex]);
+            tempList.RemoveAt(randomIndex);
+        }
+
+        return randomItems;
     }
 
     public void CollectItem(string itemName)
@@ -57,6 +102,16 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Collected but not counted: " + itemName);
         }
+    }
+
+    public bool IsRequiredItem(string itemName)
+    {
+        return requiredItems.Contains(itemName.Trim());
+    }
+
+    public bool IsAlreadyCollected(string itemName)
+    {
+        return collectedCorrectItems.Contains(itemName.Trim());
     }
 
     private void UpdateCounter()
@@ -87,24 +142,25 @@ public class GameManager : MonoBehaviour
             pickupPrompt.SetActive(false);
         }
     }
-    void UpdateShoppingListUI()
+
+    private void UpdateShoppingListUI()
     {
+        if (shoppingListText == null) return;
+
         string text = "";
 
         foreach (string item in requiredItems)
         {
             if (collectedCorrectItems.Contains(item))
             {
-                text += "[X]" + item + "\n";
+                text += "[X] " + item + "\n";
             }
             else
             {
-                text += "[ ]" + item + "\n";
+                text += "[ ] " + item + "\n";
             }
         }
 
         shoppingListText.text = text;
     }
-
-
 }

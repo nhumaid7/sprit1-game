@@ -55,6 +55,11 @@ public void RestartGame()
 public void GoToMainMenu()
     {
         Time.timeScale = 1f;
+
+        if (MusicManager.Instance != null)
+            MusicManager.Instance.RestartMusic();
+
         SceneManager.LoadScene("MainMenu");
     }
+
 }
